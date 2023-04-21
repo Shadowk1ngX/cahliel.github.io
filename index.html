@@ -8,7 +8,6 @@
         font-family: Arial, sans-serif;
       }
       
-      /* Header styles */
       header {
         background-color: #333;
         color: #fff;
@@ -18,59 +17,43 @@
         height: 80px;
       }
       
-      /* Main styles */
-      main {
-        padding: 40px;
+      h1 {
+        margin: 0;
+        font-size: 28px;
       }
       
       section {
-        margin-bottom: 60px;
+        margin: 50px 0;
       }
       
       h2 {
-        font-size: 28px;
-        margin-bottom: 20px;
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
       }
       
       p {
-        font-size: 18px;
+        margin: 10px 0;
+        font-size: 16px;
         line-height: 1.5;
-        margin-bottom: 20px;
       }
       
-      /* Portfolio link styles */
-      a.portfolio-link {
-        display: inline-block;
-        padding: 12px 24px;
-        background-color: #333;
-        color: #fff;
-        border-radius: 4px;
+      a {
+        color: #333;
         text-decoration: none;
-        font-size: 18px;
-        transition: background-color 0.2s ease;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s ease-in-out;
       }
       
-      a.portfolio-link:hover {
-        background-color: #555;
+      a:hover {
+        border-bottom-color: #333;
       }
       
-      /* Contact info styles */
-      .contact-info {
-        display: flex;
-        flex-wrap: wrap;
+      video {
+        display: block;
+        margin: 0 auto;
       }
       
-      .contact-info p {
-        flex-basis: 100%;
-        margin-bottom: 10px;
-      }
-      
-      .contact-info p:first-child {
-        flex-basis: 50%;
-        margin-right: 20px;
-      }
-      
-      /* Footer styles */
       footer {
         background-color: #333;
         color: #fff;
@@ -79,35 +62,8 @@
       }
       
       footer p {
-        font-size: 14px;
         margin: 0;
-      }
-      
-      /* Parallax styles */
-      .parallax {
-        background-image: url('https://via.placeholder.com/1200x800');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 400px;
-      }
-      
-      .parallax-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #fff;
-        font-size: 48px;
-        font-weight: bold;
-        text-shadow: 2px 2px #333;
-        opacity: 0.8;
-      }
-      
-      .parallax-text:hover {
-        opacity: 1;
+        font-size: 14px;
       }
     </style>
   </head>
@@ -115,10 +71,30 @@
     <header>
       <h1>Welcome to my Website</h1>
     </header>
-    <div class="parallax">
-      <div class="parallax-text">Scroll down to learn more</div>
-    </div>
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hello, my name is Cahliel, and I'm a Roblox developer who specializes in scripting. I am 24 and I have been working with Roblox for quite a while. I can script
+        <p>Hello, my name is Cahliel, and I'm a Roblox developer who specializes in scripting. I am 24 and I have been working with Roblox for quite a while. I can script just about anything. Even if I don't have experience with what you're asking for. As long as I can find an example or guide I can get it done. I'm currently working on a new upcoming game called Chainsawman Devils Domain as the team's lead scripter.</p>
+        <p>Why Me?</p>
+        <p>I will provide professional communication and you’ll always be able to reach me. I have a good amount of experience and have built systems from scratch as well. I give quality work and leave comments explaining what does what and will write the code so that it's easy for you to customize! I will never say I can't do something and not try. I will do research and figure out how to get the job done.</p>
+      </section>
+      <section>
+        <h2>My Portfolio</h2>
+        <p><a href="https://discord.gg/zCGaRxgY52">Visit My Discord Portfolio</a></p>
+      </section>
+      <section>
+        <h2>Work Preview</h2>
+        <video width="520" height="440" controls>
+          <source src="https://raw.githubusercontent.com/Shadowk1ngX/cahliel.github.io/main/2023-02-10_18-48-05%20(1).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section>
+        <h2>Contact Me</h2>
+        <p>Phone: 937-267-2600</p>
+        <p>Email: cosama.csu@centralstate.edu</p>
+       </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 My Personal Website</p>
+    </footer>
