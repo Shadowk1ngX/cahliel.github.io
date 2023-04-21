@@ -3,32 +3,24 @@
   <head>
     <title>My Personal Website</title>
     <style>
-      /* Global styles */
       body {
         background-color: #f2f2f2;
         font-family: Arial, sans-serif;
+        color: #333;
         margin: 0;
         padding: 0;
       }
       
-      /* Header styles */
       header {
         background-color: #333;
         color: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80px;
+        padding: 20px;
       }
       
-      header h1 {
-        font-size: 2.5rem;
-        text-align: center;
+      h1 {
         margin: 0;
-        padding: 0;
       }
       
-      /* Main styles */
       main {
         max-width: 800px;
         margin: 0 auto;
@@ -40,15 +32,11 @@
       }
       
       h2 {
-        font-size: 2rem;
-        margin-bottom: 20px;
+        margin-top: 0;
       }
       
       p {
-        font-size: 1.1rem;
         line-height: 1.5;
-        margin: 0;
-        padding: 0;
       }
       
       a {
@@ -57,24 +45,27 @@
         font-weight: bold;
       }
       
-      /* Work Preview styles */
+      a:hover {
+        text-decoration: underline;
+      }
+      
       video {
         display: block;
         margin: 0 auto;
       }
       
-      /* Footer styles */
-      footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 20px;
-        font-size: 0.9rem;
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
       }
       
-      footer p {
+      .contact-info p {
+        flex-basis: 50%;
         margin: 0;
-        padding: 0;
+      }
+      
+      .contact-info p:first-child {
+        font-weight: bold;
       }
     </style>
   </head>
@@ -85,9 +76,14 @@
     <main>
       <section>
         <h2>About Me</h2>
-        <p>Hello, my name is Cahliel, and I'm a Roblox developer who specializes in scripting. I am 24 and I have been working with Roblox for quite a while. I can script just about anything. Even if I don't have experience with what you're asking for. As long as I can find an example or guide I can get it done. I'm currently working on a new upcoming game called Chainsawman Devils Domain as the team's lead scripter.</p>
-        <p>Why Me?</p>
-        <p>I will provide professional communication and you’ll always be able to reach me. I have a good amount of experience and have built systems from scratch as well. I give quality work and leave comments explaining what does what and will write the code so that it's easy for you to customize! I will never say I can't do something and not try. I will do research and figure out how to get the job done.</p>
+        <p>Hello, my name is Cahliel, and I'm a Roblox developer who specializes in scripting. I am 24 and I have been working with Roblox for quite a while. I can script just about anything. Even if I don't have experience with what you're asking for. As long as I can find an example or guide I can get it done. I'm currently working on a new upcoming game called Chainsawman Devils Domain as the team's lead scripter.
+        <br>
+        <br>
+        Why Me?
+        <br>
+        <br>
+        I will provide professional communication and you’ll always be able to reach me. I have a good amount of experience and have built systems from scratch as well. I give quality work and leave comments explaining what does what and will write the code so that it's easy for you to customize! I will never say I can't do something and not try. I will do research and figure out how to get the job done. 
+        </p>
       </section>
       <section>
         <h2>My Portfolio</h2>
@@ -96,4 +92,19 @@
       <section>
         <h2>Work Preview</h2>
         <video width="520" height="440" controls>
-          <source src="https://raw.githubusercontent.com/Shadowk1ngX/cahliel.github.io/main/2023-02-10_18-48-05%20(1).mp4" type="video/mp
+          <source src="https://raw.githubusercontent.com/Shadowk1ngX/cahliel.github.io/main/2023-02-10_18-48-05%20(1).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section>
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+          <p>Phone: 937-267-2600</p>
+          <p>Email: Cosama.csu@centralstate.edu</p>
+           </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 My Personal Website</p>
+    </footer>
+  </body>
+</html>
