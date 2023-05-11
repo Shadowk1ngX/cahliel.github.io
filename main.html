@@ -11,21 +11,48 @@
       display: inline-block;
       margin-right: 10px;
     }
-    a {
-      text-decoration: none;
-      color: black;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
     }
-    a:hover {
-      font-weight: bold;
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
     }
   </style>
 </head>
 <body>
   <h1>Main Page</h1>
   <ul>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="palin.html">Palindrome</a></li>
-    <li><a href="factorial.html">Table of Factorials</a></li>
+    <li class="tooltip">
+      <span>Home</span>
+      <div class="tooltiptext">Welcome to the Home Page!</div>
+    </li>
+    <li class="tooltip">
+      <span>Palindrome</span>
+      <div class="tooltiptext">Check if a text is a palindrome</div>
+    </li>
+    <li class="tooltip">
+      <span>Table of Factorials</span>
+      <div class="tooltiptext">Calculate factorials up to a given number</div>
+    </li>
   </ul>
 </body>
 </html>
