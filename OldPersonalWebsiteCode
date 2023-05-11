@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Website</title>
+    <style>
+      body {
+        background-color: #000000; /* set the background color of the body to grey */
+        color: #fff; /* set the color of all text to white */
+        font-family: Arial, sans-serif;
+      }
+      
+      header {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+      }
+      
+      h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+      
+      section {
+        margin: 50px 0;
+      }
+      
+      h2 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      
+      p {
+        margin: 10px 0;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      
+      a {
+        color: #fff; /* set the color of all links to white */
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      a:hover {
+        border-bottom-color: #fff; /* set the color of the link underline on hover to white */
+      }
+      
+      video {
+        display: block;
+        margin: 0 auto;
+      }
+      
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      footer p {
+        margin: 0;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my Website</h1>
+    </header>
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>Hello, my name is Cahliel, and I'm a Roblox developer who specializes in scripting. I am 24 and I have been working with Roblox for quite a while. I can script just about anything. Even if I don't have experience with what you're asking for. As long as I can find an example or guide I can get it done. I'm currently working on a new upcoming game called Chainsawman Devils Domain as the team's lead scripter.</p>
+        <p>Why Me?</p>
+        <p>I will provide professional communication and you’ll always be able to reach me. I have a good amount of experience and have built systems from scratch as well. I give quality work and leave comments explaining what does what and will write the code so that it's easy for you to customize! I will never say I can't do something and not try. I will do research and figure out how to get the job done.</p>
+      </section>
+      <section>
+        <h2>My Portfolio</h2>
+        <p><a href="https://discord.gg/zCGaRxgY52">Visit My Discord Portfolio</a></p>
+      </section>
+      <section>
+        <h2>Work Preview</h2>
+        <video width="520" height="440" controls>
+          <source src="https://raw.githubusercontent.com/Shadowk1ngX/cahliel.github.io/main/2023-02-10_18-48-05%20(1).mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      <section>
+        <h2>Contact Me</h2>
+        <p>Phone: 937-267-2600</p>
+        <p>Email: cosama.csu@centralstate.edu</p>
+       </section>
+    </main>
+    <footer>
+      <p>Copyright © 2023 My Personal Website</p>
+    </footer>
