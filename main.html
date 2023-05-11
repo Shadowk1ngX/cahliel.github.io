@@ -2,13 +2,23 @@
 <html>
 <head>
   <title>Main</title>
+  <script>
+    function setStatusMessage(message) {
+      window.status = message;
+      return true;
+    }
+    function clearStatusMessage() {
+      window.status = "";
+      return true;
+    }
+  </script>
 </head>
 <body>
   <h1>Main Page</h1>
   <ul>
-    <li><a href="home.html">Home</a></li>
-    <li><a href="palin.html">Palindrome</a></li>
-    <li><a href="factorial.html">Table of Factorials</a></li>
+    <li><a href="home.html" onmouseover="setStatusMessage('Welcome to the Home Page!')" onmouseout="clearStatusMessage()">Home</a></li>
+    <li><a href="palin.html" onmouseover="setStatusMessage('Check if a text is a palindrome')" onmouseout="clearStatusMessage()">Palindrome</a></li>
+    <li><a href="factorial.html" onmouseover="setStatusMessage('Calculate factorials up to a given number')" onmouseout="clearStatusMessage()">Table of Factorials</a></li>
   </ul>
 </body>
 </html>
