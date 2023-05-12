@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Palindrome</title>
   <style>
     ul {
       list-style-type: none;
@@ -35,13 +37,11 @@
       opacity: 1;
     }
   </style>
-<head>
-  <title>Palindrome</title>
   <script>
     function checkPalindrome() {
-      var text = document.getElementById("text").value;
+      var text = document.getElementById("text").value.toLowerCase();
       var reversedText = text.split("").reverse().join("");
-      
+
       if (text === reversedText) {
         alert("It is a palindrome!");
       } else {
@@ -58,11 +58,13 @@
     <br>
     <input type="button" value="Check" onclick="checkPalindrome()">
   </form>
-</body>
-   <li class="tooltip">
+  <ul>
+    <li class="tooltip">
       <a href="main.html">
         <span>Main</span>
-        <div class="tooltiptext">Go back to main page!</div>
+        <div class="tooltiptext">Go back to the main page!</div>
       </a>
     </li>
+  </ul>
+</body>
 </html>
